@@ -1,0 +1,46 @@
+$background-color: rgb(15, 15, 78);
+
+.header {
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 1px solid black; */
+	background-color: $background-color;
+	color: white;
+	min-height: 8vh;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+.header h2 {
+	// margin: 10px;
+	margin-left: 2rem;
+	font-size: 1.8rem;
+}
+
+.header ul {
+	display: flex;
+	justify-content: space-evenly;
+	width: 40%;
+	/* border: 1px solid red; */
+}
+
+.header li {
+	list-style-type: none;
+	font-size: 1.1rem;
+}
+
+.header li:hover {
+	border-bottom: 1px solid white;
+}
+
+.net {
+	background-color: white;
+	color: $background-color;
+	padding: 3px;
+	padding-right: 5px;
+	margin-left: 2px;
+	border-radius: 20%;
+}

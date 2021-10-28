@@ -1,0 +1,50 @@
+$background-color: rgb(238, 238, 238);
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: $background-color;
+	// padding-top: 2rem;
+	// min-height: 200vh;
+	// margin: 50px;
+}
+
+.container h1 {
+	font-size: 3rem;
+	// margin-top: 0;
+	color: rgb(15, 73, 124);
+}
+
+.demoContainer {
+	display: flex;
+	width: 90%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.demoText {
+	width: 50vw;
+	line-height: 2rem;
+	padding: 3rem;
+}
+
+.demoText h3 {
+	font-size: 2.3rem;
+	line-height: 2.5rem;
+	color: rgb(15, 73, 124);
+}
+
+.demoText p {
+	font-size: 1.2rem;
+}
+
+.demoGif {
+	// min-width: 50vh;
+	// border: 1px solid red;
+	// display: flex;
+	position: relative;
+	height: 500px;
+	width: 50vw;
+}

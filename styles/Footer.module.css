@@ -1,0 +1,12 @@
+.footer {
+	position: absolute;
+	/* bottom: 0; */
+	width: 100%;
+	text-align: center;
+	background-color: rgb(51, 85, 122);
+}
+
+.footer p {
+	color: white;
+	font-size: 1.2rem;
+}

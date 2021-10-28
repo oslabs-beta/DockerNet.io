@@ -1,0 +1,101 @@
+$text-color: rgb(22, 13, 74);
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 99.8vh;
+	background: radial-gradient(
+				1.5em 6.28571em at 1.95em,
+				rgba(255, 255, 255, 0) 50%,
+				rgba(255, 255, 255, 0.25) 50%,
+				rgba(255, 255, 255, 0.25) 55%,
+				rgba(255, 255, 255, 0) 55%
+			)
+			0 0,
+		radial-gradient(
+				1.5em 6.28571em at -0.45em,
+				rgba(255, 255, 255, 0) 50%,
+				rgba(255, 255, 255, 0.25) 50%,
+				rgba(255, 255, 255, 0.25) 55%,
+				rgba(255, 255, 255, 0) 55%
+			)
+			1.5em 5.5em,
+		radial-gradient(
+				2.3em 4.57143em at 2.99em,
+				rgba(255, 255, 255, 0) 50%,
+				rgba(255, 255, 255, 0.3) 50%,
+				rgba(255, 255, 255, 0.3) 55%,
+				rgba(255, 255, 255, 0) 55%
+			)
+			0 0,
+		radial-gradient(
+				2.3em 4.57143em at -0.69em,
+				rgba(255, 255, 255, 0) 50%,
+				rgba(255, 255, 255, 0.3) 50%,
+				rgba(255, 255, 255, 0.3) 55%,
+				rgba(255, 255, 255, 0) 55%
+			)
+			2.3em 4em,
+		radial-gradient(
+				3.5em 6.28571em at 4.55em,
+				rgba(255, 255, 255, 0) 50%,
+				rgba(255, 255, 255, 0.25) 50%,
+				rgba(255, 255, 255, 0.25) 55%,
+				rgba(255, 255, 255, 0) 55%
+			)
+			0 0,
+		radial-gradient(
+				3.5em 6.28571em at -1.05em,
+				rgba(255, 255, 255, 0) 50%,
+				rgba(255, 255, 255, 0.25) 50%,
+				rgba(255, 255, 255, 0.25) 55%,
+				rgba(255, 255, 255, 0) 55%
+			)
+			3.5em 5.5em,
+		radial-gradient(#96cbe0, #d4eaeb);
+	background-color: rgb(177, 238, 215);
+	background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em,
+		3.5em 11em, 100% 100%;
+	background-repeat: repeat;
+}
+
+.textContainer {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* border: 1px solid red; */
+	color: $text-color;
+}
+
+.textContainer h1 {
+	font-size: 4rem;
+	/* width: 90%; */
+	margin: 0;
+}
+
+.textContainer p {
+	font-size: 1.3rem;
+	width: 80%;
+}
+
+.textContainer button {
+	width: 15rem;
+	padding: 0.8rem;
+	font-size: 1.3rem;
+	background-color: $text-color;
+	color: white;
+	border: 1px solid $text-color;
+}
+
+.textContainer button:hover {
+	background-color: white;
+	color: $text-color;
+	border: 1px solid $text-color;
+	transition: 0.2s ease-in;
+}
+
+.imageContainer {
+	/* border: 1px solid blue; */
+}
