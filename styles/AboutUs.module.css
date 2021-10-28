@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	min-height: 50vh;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.infoContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.textContainer {
+	width: 50%;
+}
+
+.textContainer h1 {
+	font-size: 2.8rem;
+}
+
+.textContainer p {
+	width: 80%;
+}
+/* 
+.textContainer Image {
+	border: 1px solid red;
+} */
