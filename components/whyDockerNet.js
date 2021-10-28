@@ -1,5 +1,4 @@
 import styles from '../styles/WhyDockerNet.module.scss';
-import Yaml from '../public/yaml.png';
 import Distribution from '../public/distribution.png';
 import Presentation from '../public/presentation.png';
 import Image from 'next/image';

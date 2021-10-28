@@ -2,8 +2,9 @@ import RightDemo from './rightdemo';
 import LeftDemo from './leftdemo';
 import styles from '../../styles/Features.module.scss';
 import Dashboard from '../../public/dashboard.png';
-import Mitch1 from '../../public/mitch1.jpeg';
-import Mitch2 from '../../public/mitch2.jpeg';
+import ViewNetworkDemo from '../../public/navigate-to-network.gif';
+import NetworkDemo from '../../public/create-network.gif';
+import ContainerDemo from '../../public/connect-container-to-network.gif';
 
 export default function Features() {
 	const visualizeDemo =
@@ -19,17 +20,17 @@ export default function Features() {
 			<RightDemo
 				title='Visualize Networks and Containers'
 				description={visualizeDemo}
-				src={Dashboard}
+				src={ViewNetworkDemo}
 			/>
 			<LeftDemo
 				title='Connect or Disconnect a Container to Any Active Network'
 				description={containerDemo}
-				src={Dashboard}
+				src={ContainerDemo}
 			/>
 			<RightDemo
 				title='Add or Delete a Network to Your Local Machine'
 				description={networkDemo}
-				src={Dashboard}
+				src={NetworkDemo}
 			/>
 		</div>
 	);

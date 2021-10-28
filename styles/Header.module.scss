@@ -11,7 +11,7 @@ $background-color: rgb(15, 15, 78);
 	min-height: 8vh;
 	position: fixed;
 	width: 100%;
-	z-index: 100;
+	z-index: 2;
 }
 
 .header h2 {
@@ -23,7 +23,7 @@ $background-color: rgb(15, 15, 78);
 .header ul {
 	display: flex;
 	justify-content: space-evenly;
-	width: 30%;
+	width: 40%;
 	/* border: 1px solid red; */
 }
 

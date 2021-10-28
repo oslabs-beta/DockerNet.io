@@ -4,7 +4,7 @@ $text-color: rgb(22, 13, 74);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 92vh;
+	min-height: 99.8vh;
 	background: radial-gradient(
 				1.5em 6.28571em at 1.95em,
 				rgba(255, 255, 255, 0) 50%,
@@ -83,7 +83,7 @@ $text-color: rgb(22, 13, 74);
 .textContainer button {
 	width: 15rem;
 	padding: 0.8rem;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	background-color: $text-color;
 	color: white;
 	border: 1px solid $text-color;

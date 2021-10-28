@@ -1,5 +1,5 @@
 import Image from 'next/image';
-// import Link from 'next/link';
+import Link from 'next/link';
 import Logo from '../public/logo.png';
 import style from '../styles/Intro.module.scss';
 
@@ -12,7 +12,11 @@ export default function Intro() {
 					Locally-Hosted Web Application GUI for Docker Network and Container
 					Management
 				</p>
-				<button>Get Started</button>
+				<Link href='#gettingstarted'>
+					<a>
+						<button>Get Started</button>
+					</a>
+				</Link>
 			</div>
 			<div className={style.imageContainer}>
 				<Image src={Logo} alt='DockerNet Logo' height='450' width='450' />

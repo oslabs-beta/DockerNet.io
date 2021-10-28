@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from '../styles/AboutUs.module.css';
-import ship from '../public/ship.jpg';
+import DockerNet from '../public/dockernet.png';
 
 export default function AboutUs() {
 	return (
@@ -22,7 +22,7 @@ export default function AboutUs() {
 						width: 500,
 					}}
 				>
-					<Image src={ship} alt='ship' layout='fill' />
+					<Image src={DockerNet} alt='ship' layout='fill' />
 				</div>
 			</div>
 		</div>

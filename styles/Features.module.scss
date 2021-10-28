@@ -1,4 +1,4 @@
-$background-color: rgb(244, 244, 244);
+$background-color: rgb(238, 238, 238);
 
 .container {
 	display: flex;
@@ -6,12 +6,15 @@ $background-color: rgb(244, 244, 244);
 	align-items: center;
 	justify-content: center;
 	background-color: $background-color;
-	min-height: 170vh;
+	// padding-top: 2rem;
+	// min-height: 200vh;
+	// margin: 50px;
 }
 
 .container h1 {
 	font-size: 3rem;
-	margin-top: 0;
+	// margin-top: 0;
+	color: rgb(15, 73, 124);
 }
 
 .demoContainer {
@@ -30,6 +33,7 @@ $background-color: rgb(244, 244, 244);
 .demoText h3 {
 	font-size: 2.3rem;
 	line-height: 2.5rem;
+	color: rgb(15, 73, 124);
 }
 
 .demoText p {
